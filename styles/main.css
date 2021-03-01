@@ -1,0 +1,94 @@
+/* Write your CSS in here */
+body {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  .modal-open .modal-screen {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .left {
+    width: 721px;
+    height: 1024px;
+    background-color: #d8d8d8;
+    border-right: 1px solid #979797;
+  }
+  .background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #979797;
+  }
+  .image {
+    position: absolute;
+    top: 274px;
+    left: 482px;
+    width: 477px;
+    height: 477px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #7d2424;
+  }
+  .box {
+    position: absolute;
+    top: 157px;
+    left: 404px;
+    right: 403px;
+    bottom: 423px;
+    width: 633px;
+    height: 444px;
+    background-color: #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .box h1{
+    font-size: 2.25rem;
+  }
+  input {
+    width: 370px;
+    height: 57px;
+  }
+  #username{
+    margin-top: 56px;
+    margin-bottom: 27px;
+  }
+  #pwd{
+    margin-bottom: 41px;
+  }
+  .box button{
+    width: 166px;
+    height: 57px;
+    color: #d8d8d8;
+    font-size: 1.375rem;
+    background-color: #26283c;
+  }
+  .js-sign-in {
+    position: absolute;
+    top: 19px;
+    right: 24px;
+    color: #690202;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.8rem;
+  }
+  
+  /** DO NOT REMOVE THESE OR YOUR JS WON'T WORK **/
+  .modal-screen,
+  .modal-wrapper {
+    display: none;
+  }
+  
+  .modal-open .modal-screen,
+  .modal-open .modal-wrapper {
+    display: flex;
+  }
+  
