@@ -29,9 +29,9 @@
 // a.call(b);
 
 
-let str='https://www.baidu.com?a=b&c=d&f=g&h=j'
-let index=str.indexOf('?')
-let right=str.substring(22)
-let str1=right.split('&')
+// let str='https://www.baidu.com?a=b&c=d&f=g&h=j'
+// let index=str.indexOf('?')
+// let right=str.substring(22)
+// let str1=right.split('&')
 
-console.log(str1);
+// console.log(str1);
