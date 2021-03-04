@@ -351,6 +351,10 @@ super(参数）---参数传给父类；
 
 # Vue
 
+## vue常见面试题见解
+
+[vue面试题](https://codingwithalice.github.io/2019/07/12/vue%E7%9B%B8%E5%85%B3-%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/)
+
 ## MVVM模式和MVC模式
 
 MVC是包括view视图层、controller控制层、model数据层。各部分之间的通信都是单向的。View 传送指令到 ControllerController 完成业务逻辑后，要求 Model 改变状态Model 将新的数据发送到 View，用户得到反馈。
