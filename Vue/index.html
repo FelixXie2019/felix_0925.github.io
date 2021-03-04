@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div:nth
+    </style>
+</head>
+<body>
+    
+    <div id="app">
+        <p>{{a.b}}</p>
+        <p>{{a.c}}</p>
+        <p>{{a.f}}</p>
+        <input type="text" v-model="e">
+    </div>
+    
+</body>
+<script src="./mvvm.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+<script>
+    
+    let vm=new Mvvm({
+        el:'#app',
+        data:{
+                a:{b:1,c:2,f:10},
+                e:20
+        }
+    })
+</script>
+<!-- <script>
+    let mvvm=new Mvvm({
+        data:{
+            a:{b:1}
+        }
+    })
+  
+</script> -->
+</html>
